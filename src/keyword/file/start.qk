@@ -1,0 +1,6 @@
+if #CFG-ALL:file FILE:units[0, 12] != "FILETYPE-ATOM;" {
+  AtomError("filetype units [0, 12] is not defined");
+}
+else {
+  AtomLog("filetype defined");
+}
