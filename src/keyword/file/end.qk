@@ -1,0 +1,6 @@
+if #CFG-ALL:file FILE:units[FILE:LL, FILE:END] != "endfile;" {
+  AtomError("end units [FILE:LL, FILE:END] is not defined");
+}
+else {
+  AtomLog("end defined");
+}
