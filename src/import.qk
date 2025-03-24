@@ -1,0 +1,5 @@
+#FILETYPE QKIMPORTSYS;
+
+IMPORT:ALLFILES::FILES{
+  import files::files::files;
+}
