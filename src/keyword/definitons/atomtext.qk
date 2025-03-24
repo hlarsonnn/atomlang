@@ -1,0 +1,7 @@
+function AtomLog(text) {
+  ConsoleSendTextSilent(text);
+}
+
+function AtomError(text) {
+  ConsoleSendText(text);
+}
