@@ -1,0 +1,5 @@
+void console = OBJECT new("console") and this.window;
+
+function ConsoleSendText(text) {
+  
+}
